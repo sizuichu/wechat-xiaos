@@ -1,5 +1,6 @@
 <template name="tempCommonList">
 
+
   <view class="common-list">
     <block wx:key="id" wx:for="{{postsList}}">
       <view class="list-item has-img" index="{{index}}" id="{{item.id}}" bindtap="redictDetail">
@@ -21,3 +22,4 @@
     </block>
   </view>  
 </template>
+
