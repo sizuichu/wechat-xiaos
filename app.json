@@ -16,8 +16,8 @@
     ],
     "window": {
         "backgroundTextStyle": "dark",
-        "navigationBarBackgroundColor": "#118fff",
-        "navigationBarTitleText": "守望轩",
+        "navigationBarBackgroundColor": "#37c6c0",
+        "navigationBarTitleText": "小生活",
         "navigationBarTextStyle": "white"
     },
     "tabBar": {

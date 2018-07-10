@@ -29,7 +29,7 @@
   font-size: 0.785714286rem;
   font-weight: normal;
   color:  #fff;
-  background-color: #118fff;
+  background-color: #37c6c0;
   background-repeat: repeat-x;
   line-height: 80rpx;
   margin-top: 40rpx;

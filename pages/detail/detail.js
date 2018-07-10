@@ -1084,7 +1084,7 @@ Page({
         context.drawImage(that.data.logo, 350, 740, 130, 130);//画logo
         //const grd = context.createLinearGradient(30, 690, 570, 690)//定义一个线性渐变的颜色
         //grd.addColorStop(0, 'black')
-        //grd.addColorStop(1, '#118fff')
+        //grd.addColorStop(1, '#37c6c0')
         //context.setFillStyle(grd)
         context.setFillStyle("#000000");
         context.setFontSize(20);

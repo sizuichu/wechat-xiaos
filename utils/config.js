@@ -16,13 +16,13 @@
 var DOMAIN = "xiaos.life";
 var MINAPPTYPE="1";//小程序的类型，如果是企业小程序请填：0 ，如果是个人小程序请填：1
 var WEBSITENAME="小生活"; //网站名称
-var ABOUTID = 1136; //wordpress网站"页面"的id,注意这个"页面"是wordpress的"页面"，不是"文章"
+var ABOUTID = 95; //wordpress网站"页面"的id,注意这个"页面"是wordpress的"页面"，不是"文章"
 var PAGECOUNT='10'; //每页文章数目
 var CATEGORIESID='all'  //专题页显示全部的分类
 //var CATEGORIESID = '1,1059,98,416,189,374,6,463';//指定专题页显示的分类的id
 var INDEXLISTTYPE="all" //首页显示所有分类
 //var INDEXLISTTYPE ="1" //指定首页显示分类的id
-var PAYTEMPPLATEID = '	sn9dIevrAA5J_NfiDlESqWWx6jyfGKFX8WspPcNDhSQ ';//赞赏消息模版id
+var PAYTEMPPLATEID = 'sn9dIevrAA5J_NfiDlESqWWx6jyfGKFX8WspPcNDhSQ ';//赞赏消息模版id
 var REPLAYTEMPPLATEID = 'IDcefDyNDl8QIwVqsPQ0diCQ0gB90NElP0OIcjrXZTs ';//回复评论消息模版id
 var ZANIMAGEURL = 'https://www.watch-life.net/images/2017/07/zsm400.jpg';//微信赞赏的图片链接，用于个人小程序的赞赏
 var LOGO = "../../images/logo-icon.png"; // 网站的logo图片
