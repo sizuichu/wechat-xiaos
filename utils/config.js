@@ -22,16 +22,16 @@ var CATEGORIESID='all'  //专题页显示全部的分类
 //var CATEGORIESID = '1,1059,98,416,189,374,6,463';//指定专题页显示的分类的id
 var INDEXLISTTYPE="all" //首页显示所有分类
 //var INDEXLISTTYPE ="1" //指定首页显示分类的id
-var PAYTEMPPLATEID = 'sn9dIevrAA5J_NfiDlESqWWx6jyfGKFX8WspPcNDhSQ ';//赞赏消息模版id
-var REPLAYTEMPPLATEID = 'IDcefDyNDl8QIwVqsPQ0diCQ0gB90NElP0OIcjrXZTs ';//回复评论消息模版id
-var ZANIMAGEURL = 'https://www.watch-life.net/images/2017/07/zsm400.jpg';//微信赞赏的图片链接，用于个人小程序的赞赏
+var PAYTEMPPLATEID = 'sn9dIevrAA5J_NfiDlESqWWx6jyfGKFX8WspPcNDhSQ';//赞赏消息模版id
+var REPLAYTEMPPLATEID = 'HculE7bReV83QZE_trh3tgMFI4_J0eMR6zqrXJpsTZs';//回复评论消息模版id
+var ZANIMAGEURL = 'http://tu.weask.club/18-7-12/91478273.jpg';//微信赞赏的图片链接，用于个人小程序的赞赏
 var LOGO = "../../images/logo-icon.png"; // 网站的logo图片
 var POSTERIMGURL ="../../images/logo700.png"; //生成海报如果没有首图，使用此处设置的图片作为海报图片。
 //设置downloadFile合法域名,不带https ,在中括号([])里增加域名，格式：{id=**,domain:'www.**.com'}，用英文逗号分隔。
 //此处设置的域名和小程序与小程序后台设置的downloadFile合法域名要一致。
 var DOWNLOADFILEDOMAIN = [
-    { id: 1, domain: 'www.watch-life.net' },
-    { id: 2, domain: 'watch-life.net' },
+    { id: 1, domain: 'xiaos.life' },
+    { id: 2, domain: 'img.xiaos.life' },
     { id: 3, domain: 'www.qiniu.com' }
 ]
  //首页图标导航
@@ -39,9 +39,9 @@ var DOWNLOADFILEDOMAIN = [
  //        'appid' 当redirecttype为miniapp时，这个值为其他微信小程序的appid，如果redirecttype为apppage，webpage时，这个值设置为空。
  //         'extraData'当redirecttype为miniapp时，这个值为提交到其他微信小程序的参数，如果redirecttype为apppage，webpage时，这个值设置为空。
 var INDEXNAV = [
-    { id: '1', name: '微店', image: '../../images/shop.png', url: 'pages/shelf/shelf', redirecttype: 'miniapp', appid: 'wx55ea6098e41af5c4', extraData:'' },
-    { id: '2', name: '排行', image: '../../images/ranking.png', url: '../hot/hot', redirecttype: 'apppage', appid: '', extraData:''},   
-    { id: '3', name: '教程', image: '../../images/app.png', url: '../list/list?categoryID=98', redirecttype: 'apppage', appid: '', extraData: '' },
+  { id: '1', name: '随笔', image: '../../images/wenzhang.png', url: '../list/list?categoryID=3', redirecttype: 'apppage', appid: '', extraData: '' },
+    { id: '2', name: '排行', image: '../../images/paihang.png', url: '../hot/hot', redirecttype: 'apppage', appid: '', extraData:''},   
+    { id: '3', name: '程序', image: '../../images/app.png', url: '../list/list?categoryID=16', redirecttype: 'apppage', appid: '', extraData: '' },
    ]
 
 export default {
