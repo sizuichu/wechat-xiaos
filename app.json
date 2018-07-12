@@ -17,7 +17,7 @@
     "window": {
         "backgroundTextStyle": "dark",
         "navigationBarBackgroundColor": "#37c6c0",
-        "navigationBarTitleText": "小生活",
+        "navigationBarTitleText": "知悠博客",
         "navigationBarTextStyle": "white"
     },
     "tabBar": {
